@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "Partial Implementation of NodeJs' Buffer Library",
+    "messaging_url": "messaging.clearblade.com:1883",
+    "name": "BufferNodeJs",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "d88684be0b9e99db9fa6e1e2ab0c",
+    "system_secret": ""
+}
