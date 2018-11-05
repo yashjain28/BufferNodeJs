@@ -1,0 +1,15 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 2,
+    "dependencies": "log,BufferNodeJs",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "TestBufferNodeJs",
+    "params": [
+        "{}"
+    ],
+    "permissions": {},
+    "run_user": "",
+    "source": "TestBufferNodeJs.js"
+}
