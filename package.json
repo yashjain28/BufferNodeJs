@@ -1,14 +1,10 @@
 {
     "asset_types": [
-        "Code Libraries",
-        "Code Services",
-        "Devices",
-        "Edges",
-        "Roles",
-        "Users"
+        "Code Libraries"
     ],
     "author": {
-        "email": "corenodejs@clearblade.com"
+        "name":"Yash Jain",
+        "email": "yjain@clearblade.com"
     },
     "clouds": [],
     "description": "Partial Implementation of NodeJs' Buffer Library",
@@ -18,12 +14,25 @@
     "keywords": [
         "clearblade",
         "iot",
-        "platform"
+        "platform",
+        "node",
+        "js",
+        "core",
+        "library",
+        "buffer"
     ],
     "license": "MIT",
     "name": "BufferNodeJs",
     "private": false,
-    "prog_lang": [],
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashjain28/BufferNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashjain28/BufferNodeJs/issues"
+  },
+  "homepage": "https://github.com/yashjain28/BufferNodeJs#readme",
+    "prog_lang": ["Javascript"],
     "protocols": [],
     "things": [],
     "version": "1.0.0"
