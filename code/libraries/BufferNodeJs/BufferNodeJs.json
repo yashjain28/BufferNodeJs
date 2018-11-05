@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "Partial Implementation of NodeJs' Buffer library",
+    "name": "BufferNodeJs",
+    "version": 4,
+    "visibility": "system"
+}
