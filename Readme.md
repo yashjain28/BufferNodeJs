@@ -17,11 +17,17 @@ Example Checkout the Code Service, once system is imported.
 ```javascript
 function TestBufferNodeJs(req, resp) {
   const Buffer = BufferNodeJs().Buffer;
-  const buffer = Buffer.from('eJzT0yMAAGTvBe8=', 'base64');
+  const buffer = Buffer.from('eJzT0yMAAGTvBe8=', 'base64'); //output: {"type": "Buffer", "data": [ 120, 156, 211, 211, 35, 0, 0, 100, 239, 5, 239]}
   log(buffer);
   resp.success('Success');
 }
-
 ```
 ## API
-The goal is to provide an API that is identical to [node's Buffer API](https://nodejs.org/api/buffer.html). 
+The goal is to provide an API that is identical to [node's Buffer API](https://nodejs.org/api/buffer.html). It is modified from [buffer](https://github.com/feross/buffer) library.
+
+
+
+## Contributing
+PRs are very welcome! The main way to contribute to `BufferNodeJs` is by porting features, bugfixes and tests from Node.js. Ideally, code contributions to this module are copy-pasted from Node.js and transpiled to ES5 (followed by some modifications), rather than reimplemented from scratch. Matching the Node.js code as closely as possible makes maintenance simpler when new changes land in Node.js. This module intends to provide exactly the same API as Node.js, so features that are not available in the core `Buffer` module will not be accepted. 
+
+If there is a difference in behaviour between Node.js's `Buffer` module and this module, please open an issue!
